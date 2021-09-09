@@ -26,4 +26,4 @@ This contains all the phonetic tags for all the words in LJspeech
 
 There are 10 phonetic tags for non-silent words, indexing from `a` to `j`. Silent words, such as punctuations and `<blank>`, are tagged as `k`.  
 
-Note that there are 
+Note that there are plenty of polyphonic words, such as "a", "while", "calm", etc. They may have different phonetic tags.
