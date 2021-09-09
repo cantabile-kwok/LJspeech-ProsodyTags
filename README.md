@@ -43,6 +43,8 @@ This contains the prosody tags for every word in every utterance in LJspeech.
 
 The prosody tag is in the form of `${leaf_tag}+${index_within_leaf}`, where `leaf_tag` is the leaf tag as in `leaf_tag_all.csv`, and `index_within_leaf` is the GMM index within that leaf node. In each **non-silent** leaf node, the GMM is set to have 5 components. For silent leaf node `k`, those with phone 'SIL0' is tagged as `k0`, or `k1` otherwise. Hence there exist 52 (10 non-silent leaves \* 5-GMM for each + 2 for silent words). These tags specify the prosody of the word in speech and can be further used for modeling and control.
 
+In this csv table, `raw_word` column stands for words in the raw form, while `stanza` is the words processed by python library "stanza". For silent words, `stanza` entry stands for the punctuations or \<blank\>.
+
 ### sound.md
 
 This file explains how each prosody tag sounds like.
