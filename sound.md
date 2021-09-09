@@ -120,7 +120,7 @@ j4	medium-low pitched, medium speech rate, slight descendence of tone
 
 **k (silent words)**
 
-k0	with "SIL0"
+k0	with "SIL0". These are short pauses.
 
-k1	with "SIL1", "SIL2" or "SIL3"
+k1	with "SIL1", "SIL2" or "SIL3", which are long pauses.
 
