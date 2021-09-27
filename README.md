@@ -1,6 +1,6 @@
 # LJspeech-ProsodyTags
 
-### **Tree-Based Word-Level Prosody Clustering and Direct Control for Neural Text-To-Speech**
+### **Unsupervised Word-Level Prosody Tagging for Controllable Speech Synthesis**
 
 Yiwei Guo, Chenpeng Du, Kai Yu
 
